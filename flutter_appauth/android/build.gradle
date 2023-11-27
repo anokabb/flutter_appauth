@@ -5,6 +5,7 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+		maven { url 'https://jitpack.io' }
     }
 
     dependencies {
@@ -40,5 +41,5 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.anokabb:AppAuth-Android:926cd51'
+    implementation 'com.github.anokabb:AppAuth-Android:1.0.0'
 }
